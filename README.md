@@ -1,2 +1,1 @@
-# Mingze_Project
-明泽机电项目GITHUB库
+# 明泽机电项目
