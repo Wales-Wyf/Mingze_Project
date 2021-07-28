@@ -23,7 +23,7 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 下面选项只可选择一项进行：
 
-（选项1）在nano里，下载我们的代码并放到Desktop/FCHD-Fully-Convolutional-Head-Detecto目录下；若之前下载测试过FCHD，融合时请选择替换。
+（选项1）在nano里，下载我们的代码并放到Desktop/FCHD-Fully-Convolutional-Head-Detecto目录下；若之前下载测试过FCHD，融合时请选择替换。下载模型[head_detector_final](https://drive.google.com/drive/folders/1WBk62oGcRiGHd07hEon1NFlyV4Rrdvnu?usp=sharing)，并放到新建的checkpoints/文件夹下。
 
 （选项2）我们也提供了整体的代码，删除之前所有的FCHD代码，下载[链接](https://cloud.tsinghua.edu.cn/d/389746fe05f442d08bd5/)即可。
 
