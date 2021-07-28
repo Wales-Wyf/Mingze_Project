@@ -12,14 +12,9 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 ## 人头检测
 
-我们考虑FCHD作为人头检测算法，部分代码说明：  
-1.demo_video.py：主程序，每分钟读取摄像头，统计人数并发送给树莓派。  
-2.demo_video_show.py：同上，但带有展示画面。   
-3.interface.py：nano发送到树莓派的代码。  
-4.binding.csv：nano和树莓派对应的ip，可根据实际地址修改。  
-5.initial_nano.py：读取binding.csv，获取接收方树莓派的ip。
+我们考虑[FCHD](https://github.com/aditya-vora/FCHD-Fully-Convolutional-Head-Detector)作为人头检测算法，我们在此进行了二次开发。
 
-下面选项只可选择一项进行：
+使用时，下面选项只可选择一项进行：
 
 （选项1）在nano里，下载我们的代码并放到Desktop/FCHD-Fully-Convolutional-Head-Detecto目录下；若之前下载测试过FCHD，融合时请选择替换。下载模型[head_detector_final](https://drive.google.com/drive/folders/1WBk62oGcRiGHd07hEon1NFlyV4Rrdvnu?usp=sharing)，并放到新建的checkpoints/文件夹下。
 
