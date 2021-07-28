@@ -12,9 +12,11 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 ## 人头检测
 
-我们考虑[FCHD](https://github.com/aditya-vora/FCHD-Fully-Convolutional-Head-Detector)作为人头检测算法，我们在此进行了二次开发。
+我们考虑[FCHD](https://github.com/aditya-vora/FCHD-Fully-Convolutional-Head-Detector)作为人头检测算法，我们在此进行了二次开发。经过上述步骤，相信你已经配置好了环境，安装：
 
-使用时，下面选项只可选择一项进行：
+    pip3 install pymysql
+
+接下来使用时，下面选项只可选择一项进行：
 
 （选项1）在nano里，下载我们的代码并放到Desktop/FCHD-Fully-Convolutional-Head-Detecto目录下；若之前下载测试过FCHD，融合时请选择替换。下载模型[head_detector_final](https://drive.google.com/drive/folders/1WBk62oGcRiGHd07hEon1NFlyV4Rrdvnu?usp=sharing)，并放到新建的checkpoints/文件夹下。
 
