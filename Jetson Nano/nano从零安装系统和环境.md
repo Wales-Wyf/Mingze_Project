@@ -16,7 +16,7 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 部分文件说明：  
 1.demo_video.py：主程序，每分钟读取摄像头，统计人数并发送给树莓派。  
-2.demo_video_show.py：同上，但带有展示画面。 
+2.demo_video_show.py：同上，但带有展示画面。   
 3.interface.py：nano发送到树莓派的代码。  
 4.binding.csv：nano和树莓派对应的ip，可根据实际地址修改。  
 5.initial_nano.py：读取binding.csv，获取接收方树莓派的ip。
@@ -34,8 +34,8 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 
 ## 开机自启动
-
-请参考此[链接](https://shumeipai.nxez.com/2020/06/30/linux-usage-systemd.html)。
+若不设置开机自启动，每次都需要手动启动程序。
+其配置工作请参考此[链接](https://shumeipai.nxez.com/2020/06/30/linux-usage-systemd.html)。  
 当然，myscript.service应该改为
 
     [Unit]
