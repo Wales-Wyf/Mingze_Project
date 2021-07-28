@@ -12,16 +12,21 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 ## 人头检测
 
-我们考虑FCHD作为人头检测算法，这是我们更新后的代码[链接](https://cloud.tsinghua.edu.cn/d/389746fe05f442d08bd5/)。
+我们考虑FCHD作为人头检测算法，这是我们更新后的代码。
 
-下载的文件说明：  
+部分文件说明：  
 1.demo_video.py：主程序，每分钟读取摄像头，统计人数并发送给树莓派。  
 2.demo_video_show.py：同上，但带有展示画面。 
 3.interface.py：nano发送到树莓派的代码。  
 4.binding.csv：nano和树莓派对应的ip，可根据实际地址修改。  
 5.initial_nano.py：读取binding.csv，获取接收方树莓派的ip。
 
-在nano里，删除之前的FCHD文件，将上述链接下载，并放到Desktop目录下。
+下面选项只可选择一项进行：
+
+（选项1）在nano里，下载我们的代码并放到Desktop/FCHD-Fully-Convolutional-Head-Detecto目录下；若之前下载测试过FCHD，融合时请选择替换。
+
+（选项2）我们也提供了整体的代码，删除之前所有的FCHD代码，下载[链接](https://cloud.tsinghua.edu.cn/d/389746fe05f442d08bd5/)即可。
+
 
 现在，你可以观看人头检测结果（如果USB摄像头已连接nano），运行：
 
@@ -65,7 +70,7 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 ## 制作nano镜像
 
-参考使用ubuntu的自带startup Disk Creator工具制作nano镜像。
+请使用ubuntu的自带startup Disk Creator工具制作nano镜像。
 
 
 ## 手动修改ip和启动算法
