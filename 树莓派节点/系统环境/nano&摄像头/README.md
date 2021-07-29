@@ -56,7 +56,7 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 # 快速安装版
 
-上述步骤比较繁琐，现在我们把所有步骤都汇总成了一个镜像，你需要会使用[镜像拷贝](https://www.cnblogs.com/mr-bike/p/10590275.html)就可以获得上述所有功能！
+上述步骤比较繁琐，现在我们把所有步骤都汇总成了一个[镜像](https://cloud.tsinghua.edu.cn/d/dae5295146d044419a38/)，你需要会使用[镜像拷贝](https://www.cnblogs.com/mr-bike/p/10590275.html)就可以获得上述所有功能！
 
 连接USB摄像头，重启nano，你只需要在树莓派端查看人数即可。
 
