@@ -72,3 +72,17 @@ Jetson Nano 是一款简易的边缘深度学习（DL）设备，这是[基准�
 
 参考[链接](https://cloud.tsinghua.edu.cn/f/56b314cadb7443a189a8/)。
 
+# 遇到问题
+
+## 电源
+
+标准电源配置为5V3A，推荐使用官方提供的[电源适配器](https://item.m.jd.com/product/65732459585.html?gx=RnFsxWReOjHYmdRP--tzWt5PJ_WbFdFgegVU&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends)。若电压或者电流不稳，会产生自动关机等现象。 
+
+## 精度
+
+首先应该调节摄像头至画面水平，人员尽量在画面中间部分。
+
+其次，FCHD是在[BRAINWASH](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/software-and-datasets/)数据集上训练的，其图片如下
+<div align=center><img width=300 height=200 src="https://github.com/Wales-Wyf/Mingze_Project/blob/main/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%8A%82%E7%82%B9/%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83/nano%26%E6%91%84%E5%83%8F%E5%A4%B4/1.png"/></div>
+若实际场景与该数据集差距过大，则效果会不理想。可考虑在实际场景的数据下finetune模型，算法的改进仍在继续。
+
